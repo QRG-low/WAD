@@ -1,6 +1,30 @@
 body {
     font-family: Calibri, sans-serif;
     background-color: lightgray;
+    height: 100%;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.button {
+    background-color: cornflowerblue;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+}
+
+.button:hover {
+    background: lightskyblue;
+    color: white;
+}
+
+.page {
+    margin-top: 50px;
 }
 
 h1 {
@@ -22,6 +46,21 @@ for displaying and hiding the different parts of the page / navbar
     display: block;
 }
 
+/*
+fixed footer
+ */
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    color: white;
+}
+
+/*
+making the images kind of responsive to the screen width
+ */
 img {
     max-width: 100%;
     height: auto;
