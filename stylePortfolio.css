@@ -1,0 +1,28 @@
+body {
+    font-family: Calibri, sans-serif;
+    background-color: lightgray;
+}
+
+h1 {
+    color: lightseagreen;
+}
+
+p {
+    color: black;
+}
+
+/*
+for displaying and hiding the different parts of the page / navbar
+ */
+.page, :target ~ .default {
+    display: none;
+}
+
+.default, :target {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
